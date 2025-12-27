@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "org.koitharu"
-version = "0.2"
+version = "0.3"
 
 tasks.withType<Jar> {
     manifest {
