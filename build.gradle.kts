@@ -33,7 +33,7 @@ dependencies {
     testImplementation(kotlin("test"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.2")
     implementation("com.github.ajalt.clikt:clikt-core:5.0.3")
-    implementation("com.github.KotatsuApp:kotatsu-parsers:14cff0d651")
+    implementation("com.github.YakaTeam:kotatsu-parsers:242684c26f")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.squareup.okio:okio:3.11.0")
     implementation("org.openjdk.nashorn:nashorn-core:15.6")
