@@ -81,7 +81,7 @@ class Main : AppCommand(name = "kotatsu-dl") {
         print("Resolving link…")
         val source = linkResolver.getSource()
         val manga = linkResolver.getManga()
-        if (source == null || source == MangaParserSource.DUMMY) {
+        if (source == null) {
             println()
             error("Unsupported manga source")
         }

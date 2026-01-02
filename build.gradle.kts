@@ -1,12 +1,12 @@
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 
 plugins {
-    kotlin("jvm") version "2.0.20"
+    kotlin("jvm") version "2.2.0"
     id("com.gradleup.shadow") version "8.3.8"
 }
 
 group = "org.koitharu"
-version = "0.3"
+version = "0.1"
 
 tasks.withType<Jar> {
     manifest {
@@ -33,7 +33,7 @@ dependencies {
     testImplementation(kotlin("test"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.2")
     implementation("com.github.ajalt.clikt:clikt-core:5.0.3")
-    implementation("com.github.YakaTeam:kotatsu-parsers:1.1")
+    implementation("com.github.YakaTeam:kotatsu-parsers:9532d7fe67")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.squareup.okio:okio:3.11.0")
     implementation("org.openjdk.nashorn:nashorn-core:15.6")
